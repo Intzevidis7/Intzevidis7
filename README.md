@@ -12,6 +12,45 @@ My projects range from production web applications to local AI-powered video and
 
 ## 🚀 Featured Projects
 
+### 🔊 Bad Word Beep
+
+**Local Greek + English microphone censor for Windows and OBS**
+
+Bad Word Beep is an experimental Windows desktop application for streamers. It listens to a microphone locally using Greek and English Vosk speech-recognition models, detects words defined by the user, and replaces matched words with a beep in a delayed audio feed sent to OBS through VB-CABLE.
+
+The application is built for privacy-focused local processing: it runs on CPU, does not require a cloud transcription account, and does not intentionally upload microphone audio.
+
+**Features:**
+- Local Greek and English speech recognition
+- Editable bad-word list
+- Configurable audio delay and beep volume
+- Vosk-powered offline speech recognition
+- OBS-ready audio routing through VB-CABLE
+- Windows desktop interface
+- Packaged Windows installer
+- Local activity logs for recognized words, beeps, and recognition lag
+- Safety-focused test workflow using local OBS recordings
+
+**Technologies & concepts:**
+- Python
+- Tkinter desktop GUI
+- Vosk speech recognition
+- Real-time audio processing
+- SoundDevice
+- NumPy and SciPy
+- OBS Studio integration
+- VB-CABLE audio routing
+- PyInstaller
+- Inno Setup
+- Windows application packaging
+- GitHub Releases
+
+> This project is experimental and is not a guaranteed profanity filter. It can miss words, beep innocent speech, or recognize a word after it has already played.
+
+🔗 [View project](https://github.com/Intzevidis7/BadWordBEEP)
+
+---
+
 ### 🎬 ClipForge
 
 **AI-powered video clipping and captioning tool**
@@ -39,33 +78,11 @@ The project has separate implementations for Windows and Linux.
 
 ---
 
-### 🎙️ AI Streamer Filter
-
-**AI-powered speech and audio content filtering**
-
-An application designed for streamers that detects inappropriate language in live audio and processes the audio for content filtering.
-
-The project integrates speech recognition, audio routing and OBS-oriented streaming workflows.
-
-**Technologies & concepts:**
-- Python
-- Speech recognition
-- AI-powered content detection
-- Audio processing
-- OBS integration
-- VB-CABLE audio routing
-- Real-time streaming workflows
-- Windows application development
-
-🔗 [View project](https://github.com/Intzevidis7/ai-streamer-filter)
-
----
-
 ### 🏎️ TsilisF1CoffeeShop
 
 **Full-Stack Formula 1 Prediction Platform**
 
-A production web application that I designed, developed, deployed and maintain.
+A production web application that I designed, developed, deployed, and maintain.
 
 The platform allows users to make Formula 1 predictions and compete through leaderboards and user statistics.
 
@@ -89,9 +106,8 @@ The platform allows users to make Formula 1 predictions and compete through lead
 - Cloudflare
 - cPanel
 
-🌐 [Live Website](https://tsilisf1coffeeshop.org/)
-
-🔗 [Project Repository](https://github.com/Intzevidis7/tsilisf1coffeeshop)
+🌐 [Live Website](https://tsilisf1coffeeshop.org/)  
+🔗 [Project repository](https://github.com/Intzevidis7/tsilisf1coffeeshop)
 
 > The production source code is private. The repository is used as a public portfolio showcase.
 
@@ -117,7 +133,7 @@ A Python-based media-processing project focused on automatically generating subt
 
 ## 🛠️ Technologies
 
-### Programming Languages
+### Programming languages
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
@@ -126,18 +142,19 @@ A Python-based media-processing project focused on automatically generating subt
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
 
-### AI & Machine Learning
+### AI and machine learning
 
 - AI API integration
 - Local LLMs
 - Ollama
 - Speech recognition
+- Vosk
 - Whisper
 - AI-powered automation
-- Natural language processing
+- Natural-language processing
 - Automated content analysis
 
-### Backend & Web
+### Backend and web
 
 - PHP
 - MySQL
@@ -149,25 +166,28 @@ A Python-based media-processing project focused on automatically generating subt
 - JavaScript
 - HTML/CSS
 
-### Media & Systems
+### Media and systems
 
 - FFmpeg
 - Audio processing
 - Video processing
 - Subtitle generation
-- OBS
+- OBS Studio
+- VB-CABLE audio routing
+- Windows desktop applications
 - Linux
 - Windows
 - Shell scripting
 
-### Tools & Infrastructure
+### Tools and infrastructure
 
 - Git
 - GitHub
-- Linux
+- PyInstaller
+- Inno Setup
+- Docker
 - Cloudflare
 - cPanel
-- Docker
 - AWS
 - Microsoft Azure
 
@@ -178,7 +198,7 @@ A Python-based media-processing project focused on automatically generating subt
 **University of Thessaly**  
 Digital Systems
 
-Currently focused on software development, computing systems, AI and modern digital technologies.
+Currently focused on software development, computing systems, AI, and modern digital technologies.
 
 ---
 
@@ -191,12 +211,12 @@ Areas I'm interested in include:
 - 🤖 Artificial Intelligence
 - 💻 Backend Engineering
 - 🌐 Full-Stack Development
-- 🎬 AI & Media Processing
-- 🎙️ Speech & Audio Processing
+- 🎬 AI and Media Processing
+- 🎙️ Speech and Audio Processing
 - ☁️ Cloud Computing
-- 🐧 Linux & Systems
+- 🐧 Linux and Systems
 - ⚙️ Software Automation
-- 🔌 APIs & Integrations
+- 🔌 APIs and Integrations
 
 ---
 
@@ -227,5 +247,3 @@ Feel free to explore my repositories and projects.
 I'm interested in opportunities related to:
 
 **Software Development · Backend Engineering · AI · Full-Stack Development · Cloud Technologies**
-
----
