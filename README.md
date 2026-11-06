@@ -1,4 +1,4 @@
-# Hi, I'm Antonis 👋
+# Hi, I'm Digi 👋
 
 🎓 **Digital Systems University Student**  
 💻 **Full-Stack & Backend Developer**  
