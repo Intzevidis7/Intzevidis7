@@ -1,6 +1,6 @@
 # Hi, I'm Antonis 👋
 
-🎓 **Digital Systems Student @ University of Thessaly**  
+🎓 **Digital Systems University Student**  
 💻 **Full-Stack & Backend Developer**  
 🤖 **AI & Software Engineering Enthusiast**
 
